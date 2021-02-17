@@ -444,7 +444,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &230869156
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2288,8 +2288,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e33cb60cf189da347af2e80c696c221f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ConnectionString: Server=tcp:devryprojects2021.database.windows.net,1433;Initial
-    Catalog=DeVryProjects;Persist Security Info=False;User ID=joeh28;Password=jh1031ht!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection
+  ConnectionString: Server=tcp:flywithbutchohareserver.database.windows.net,1433;Initial
+    Catalog=FlyWithButchOhareDB_Copy;Persist Security Info=False;User ID=DevTeam;Password=D3vT3@m6066!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection
     Timeout=30;
 --- !u!1 &930268474
 GameObject:
@@ -3628,7 +3628,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1613285195
 RectTransform:
   m_ObjectHideFlags: 0
