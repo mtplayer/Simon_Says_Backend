@@ -37,7 +37,7 @@ public class DBInterface : MonoBehaviour
             {
                 con.Open();
                 SqlCommand command = con.CreateCommand();
-                command.CommandText = "INSERT INTO scores (playername, highscore) VALUES (@playerName, @highscore)";
+                command.CommandText = "INSERT INTO OhareSays (playername, highscore) VALUES (@playerName, @highscore)";
                 command.Parameters.AddWithValue("@playerName", playerName);
                 command.Parameters.AddWithValue("@highscore", highscore);
                 command.ExecuteNonQuery();
@@ -65,7 +65,7 @@ public class DBInterface : MonoBehaviour
             {
                 con.Open();
                 SqlCommand command = con.CreateCommand();
-                command.CommandText = "SELECT TOP 5 * FROM scores ORDER BY highscore DESC";
+                command.CommandText = "SELECT TOP 5 * FROM OhareSays ORDER BY highscore DESC";
                 var reader = command.ExecuteReader();
                 while (reader.Read())
                 {
